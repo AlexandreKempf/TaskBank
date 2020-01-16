@@ -14,7 +14,7 @@ seaborn==0.9.0
 sklearn==0.0
 pyyaml==5.1.1
 imageio==2.6.1
-torch-nightly==1.0.0.dev20190325
-torchvision-nightly==0.2.1
+torch==1.0.0.dev20190325
+torchvision==0.2.1
 imgaug==0.3.0
 ward==0.21.0
