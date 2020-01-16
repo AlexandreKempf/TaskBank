@@ -19,3 +19,4 @@ torch-nightly==1.0.0.dev20190325
 torchvision==0.2.2.post3
 torchvision-nightly==0.2.1
 imgaug==0.3.0
+ward==0.21.0
