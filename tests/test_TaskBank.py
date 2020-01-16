@@ -1,4 +1,4 @@
-from tasks.TaskBank import *
+from TaskBank import *
 from ward import expect, test, fixture
 import numpy as np
 
