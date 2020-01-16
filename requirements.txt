@@ -12,11 +12,9 @@ scikit-learn==0.22.1
 scipy==1.2.0
 seaborn==0.9.0
 sklearn==0.0
-torch==1.0.0
 yaml==5.3
 imageio==2.6.1
 torch-nightly==1.0.0.dev20190325
-torchvision==0.2.2.post3
 torchvision-nightly==0.2.1
 imgaug==0.3.0
 ward==0.21.0
