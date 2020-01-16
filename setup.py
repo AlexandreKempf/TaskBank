@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
      name='TaskBank',
-     version=sys.argsv[1],
+     version=str(sys.argsv[1]),
      author="Alexandre Kempf",
      author_email="alexanre.kempf@cri-paris.org",
      description="A library of machine learning tasks for HackDuck",
