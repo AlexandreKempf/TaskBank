@@ -1,11 +1,12 @@
 import setuptools
+import sys
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
      name='TaskBank',
-     version='0.1.0',
+     version=sys.argsv[1],
      author="Alexandre Kempf",
      author_email="alexanre.kempf@cri-paris.org",
      description="A library of machine learning tasks for HackDuck",
