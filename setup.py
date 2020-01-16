@@ -3,6 +3,8 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+packages = ["TaskBank"]
+
 setuptools.setup(
      name="TaskBank",
      version="0.1.8",
