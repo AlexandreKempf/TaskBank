@@ -7,7 +7,7 @@ packages = ["TaskBank"]
 
 setuptools.setup(
      name="TaskBank",
-     version="0.1.8",
+     version="0.1.9",
      author="Alexandre Kempf",
      author_email="alexanre.kempf@cri-paris.org",
      description="A library of machine learning tasks for HackDuck",
