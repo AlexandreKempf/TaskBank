@@ -6,7 +6,9 @@ from sklearn.ensemble import *  # https://scikit-learn.org/stable/modules/classe
 from sklearn.discriminant_analysis import *  # https://scikit-learn.org/stable/modules/classes.html#module-sklearn.discriminant_analysis
 from sklearn.tree import *  # https://scikit-learn.org/stable/modules/classes.html#module-sklearn.tree
 from sklearn.ensemble import *  # https://scikit-learn.org/stable/modules/classes.html#module-sklearn.ensemble
-from sklearn import metrics  # https://scikit-learn.org/stable/modules/classes.html#module-sklearn.metrics
+from sklearn import (
+    metrics,
+)  # https://scikit-learn.org/stable/modules/classes.html#module-sklearn.metrics
 from sklearn import model_selection
 import mlflow
 import os
@@ -44,9 +46,11 @@ def gini_index(array):
         array -= np.amin(array)  # values cannot be negative
     array += np.finfo(float).tiny  # values cannot be 0
     array = np.sort(array)  # values must be sorted
-    index = np.arange(1, array.shape[0]+1)  # index per array element
+    index = np.arange(1, array.shape[0] + 1)  # index per array element
     n = array.shape[0]  # number of array elements
-    return ((np.sum((2 * index - n - 1) * array)) / (n * np.sum(array)))  # Gini coefficient
+    return (np.sum((2 * index - n - 1) * array)) / (
+        n * np.sum(array)
+    )  # Gini coefficient
 
 
 # metrics
@@ -178,7 +182,7 @@ def mean_tweedie_deviance(y_true, y_pred, **kwargs):
 
 def classification_report(y_true, y_pred, **kwargs):
     out = metrics.classification_report(y_true, y_pred, **kwargs)
-    with open(f'/tmp/classification_report.txt', 'w') as outfile:
+    with open(f"/tmp/classification_report.txt", "w") as outfile:
         outfile.writelines(out)
-    log_artifact(f'/tmp/classification_report.txt')
+    log_artifact(f"/tmp/classification_report.txt")
     return

@@ -5,7 +5,7 @@ import imageio
 
 
 def read_dataset(file):
-    yamlfile = yaml.load(open(file, 'r'), Loader=yaml.FullLoader)
+    yamlfile = yaml.load(open(file, "r"), Loader=yaml.FullLoader)
     root = yamlfile.get("root", "")
     inputs = yamlfile.get("inputs", [])
     inputs = [os.path.join(root, input) for input in inputs]
@@ -42,4 +42,4 @@ def read_dict(file, keys=None):
 
 
 def hello():
-    print('Thib')
+    print("Thib")
