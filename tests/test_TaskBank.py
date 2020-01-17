@@ -1,3 +1,6 @@
+import sys
+sys.path.insert(1, 'src/')
+
 from TaskBank import *
 from ward import expect, test, fixture
 import numpy as np
