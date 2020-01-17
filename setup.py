@@ -12,6 +12,7 @@ setuptools.setup(
     author_email="alexanre.kempf@cri-paris.org",
     description="A library of machine learning tasks for HackDuck",
     long_description=long_description,
+    package_dir={"": "src"},
     long_description_content_type="text/markdown",
     url="https://github.com/AlexandreKempf/TaskBank",
     packages=setuptools.find_packages(),
