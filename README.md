@@ -16,7 +16,7 @@
 ## Installation:
 You can install it as:
 - __a pip package:__ `pip install TaskBank`
-- __a github folder:__ `git clone https://github.com/AlexandreKempf/TaskBank.git`
+- __a github folder:__ `git clone https://github.com/AlexandreKempf/TaskBank.git` and then `pip install .` in the folder
 
 ## Features:
 - __easy to use:__ Each task is written as a simple Python function
