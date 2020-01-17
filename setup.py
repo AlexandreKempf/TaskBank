@@ -13,12 +13,13 @@ setuptools.setup(
     description="A library of machine learning tasks for HackDuck",
     long_description=long_description,
     package_dir={"": "src"},
+    packages=["TaskBank"],
     long_description_content_type="text/markdown",
     url="https://github.com/AlexandreKempf/TaskBank",
-    packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    python_requires='>=3.6',
 )
