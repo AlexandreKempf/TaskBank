@@ -1,7 +1,0 @@
-{
-    "name": "alexandrekempf/taskbank",
-    "description": "A library of machine learning tasks for HackDuck",
-    "require": {
-        "python": "^3.6"
-    }
-}
