@@ -1,8 +1,6 @@
 <h1 align="center">TaskBank</h1>
 
-<div align="center">
-  <strong>A library of machine learning tasks for [HackDuck](https://github.com/AlexandreKempf/HackDuck)</strong>
-</div>
+**A library of machine learning tasks for [HackDuck](https://github.com/AlexandreKempf/HackDuck)**
 
 [![PyPI version](https://badge.fury.io/py/TaskBank.svg)](https://badge.fury.io/py/TaskBank)
 
