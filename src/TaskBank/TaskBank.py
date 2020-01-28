@@ -39,7 +39,3 @@ def read_dict(file, keys=None):
         return d
     else:
         return get_from_dict(d, keys)
-
-
-def hello():
-    print("Thib")

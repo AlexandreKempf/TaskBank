@@ -34,3 +34,11 @@ I'm looking for contributors to write new tasks or to play with them
 
 ## See Also:
 [HackDuck](https://github.com/AlexandreKempf/HackDuck)
+
+
+## TODO:
+ - [ ] Implement a pytorch model with lightning or ignite
+ - [ ] Implement optimization with optuna
+ - [ ] Implement time series augmentation https://github.com/terryum/Data-Augmentation-For-Wearable-Sensor-Data/blob/master/Example_DataAugmentation_TimeseriesData.ipynb
+ - [ ] Implement the loading of famous datasets
+ - [ ] Implement the bases for a good ETL (load several file types, panda support, filters ...)
